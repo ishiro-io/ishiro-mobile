@@ -1,0 +1,9 @@
+{
+  "extends": ["@react-native-community", "prettier", "prettier/react"],
+  "plugins": ["@typescript-eslint", "prettier"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "off",
+    "react-native/no-inline-styles": "off",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}
